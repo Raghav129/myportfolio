@@ -76,23 +76,7 @@
     font-weight: bolder;
     color: #9858ff;
     text-align: center;
-    display: inline-flex;
-}
 
-.dynamic li span::after{
-    content: "";
-    position: absolute;
-    border-left: 2px solid #9858ff;
-    left: 0;
-    animation: typing 1.5s steps(10) infinite;
-}
-
-@keyframes typing {
-    100% {
-        left: 100%;
-        margin: 0 -3;
-    }
-    
 }
 
 .lang {
@@ -168,7 +152,7 @@
     fill: #b386ff; 
 }
 
-.bi-x {
+.bi-github {
     fill: #b386ff; 
 }
 
